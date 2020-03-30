@@ -137,6 +137,14 @@ form input{
     box-sizing: border-box;
     border: 2px solid rebeccapurple;
 }
+.commonbutton{
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgb(130, 34, 185);
+    font-weight: bold;
+    cursor: pointer;
+}
 
 #footer{
     padding: 10px 0 40px;
