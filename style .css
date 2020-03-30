@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic ;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.7)), url(team\ .jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right ;
+    list-style-type: none ;
+    margin-top: 1px;
+    
+    
+    
+    
+}
+ul li{
+    display: inline-block;
+    margin-left:130px;
+    
+    
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border :1px solid transparent;
+    transition: 0.6s ease;
+    position: fixed;
+    background-color: darkblue;
+    
+}
+ul li a:hover{
+    background-color: white;
+    color: #000;
+}
+
+.logo img{
+    float: left;
+    width: 150px;
+    height: auto;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+    
+    
+}
+.title{
+    position: absolute;
+    top: 50%;
+
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:white ;
+    font-size: 90px;
+    text-align: center;
+}
+.title h2{
+    color: white;
+    font-size: 50px;
+}
+/*.....about...*/
+#about{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.left{
+    flex-basis: 50%;
+}
+.right{
+    flex-basis: 50%;
+}
+.right img{
+    width:100%;
+}
+.text{
+    margin-right: 20px;
+}
+h3{
+    color: purple;
+    font-style: italic;
+}
+h4{
+    font-style: italic;
+    color: rebeccapurple;
+    float: right;
+    margin-right: 40px;
+}
+#vision {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#event{
+    margin: 90px auto ;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(76, 167, 219);
+    padding: 10% 6%;
+}
+
+#join{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.joinleft,.joinright{
+    flex-basis: 50%;
+}
+
+
+.joinright img{
+    width: 100%;
+}
+form{
+    max-width: 500px;
+    margin: 30px 0;
+}
+form input{
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid rebeccapurple;
+}
+
+#footer{
+    padding: 10px 0 40px;
+
+}
+hr{
+    width: 100%;
+    border: 0;
+    border-top: 1px solid rgba(160, 177, 9, 0.692);
+
+}
+.copy{
+    text-align: center;
+}
+
+#contact{
+    text-align: center;
+    padding-bottom: 80px;
+}
+.icons{
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+.icons img{
+    display: block;
+    width: 30px;
+    max-width: 0 auto 20px;
+    cursor: pointer;
+    
+}

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+.home{
+
+    position: fixed;
+    
+}
+ul li a{
+    list-style-type: none;
+}
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+<div class="home">
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+    </ul>
+</div>
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1>SHE </h1>
+<hr>
+
+<h2>ACTIVITIES </h2>
+<p>Since its inception, a number of activities have been conducted. One of the
+    first steps taken was the creation of an online network of alumnae, under the
+    name ’Women Engineers Connect’. Starting from the batch of 1990 up to the
+    graduating batch of 2017, an overwhelming response was noted, with more
+    than 200 members joining within the first 5 days. A registration drive and
+    an initial survey was conducted, after which the results were consolidated
+    and analysed. Alongside, an icebreaking and hand holding session was also
+    held for the first target group of female students at GCEK.
+    </p>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="hack .png" alt="hack" style="width:100%">
+      <h2>HACK THE NIGHT </h2>
+      <h3>24 Hours women hackathon </h3>
+      <p>A 24 hour Women Hackathon was conducted in collaboration with ICFOSS
+        – International Centre for Free and Open Source Software (an initiative of
+        the Kerala Government). This in-house program, included interaction with
+        alumnae, along with a competitive event that involved building assistive
+        chatbots.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="ARYA.png" alt="Resume " style="width:100%">
+      <h2>Resume Workshop </h2>
+      <p>A workshop on Resume Building was conducted in association with the
+        Rethink Foundation. Through the workshop, it was intended to introduce
+        participants to the nuances of resume etiquette. The day long programme
+        worked towards instilling good resume writing skills, with a focus on exploring job descriptions for each persons dream job while still in college, so as to
+        cultivate the relevant industry skills and create resumes that represent them
+        better.
+        </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="CAMP.jfif" alt="camp" style="width:100%">
+    <h2>LEAD THE LEADERS </h2>
+      <h3>One day  camp </h3>
+      <p>The flagship event of the first phase of SHE was ’Lead the Leaders’. The
+        two day residential camp for selected 30 SHE senior members aimed to inculcate the much needed skills for professional excellence as well as personal
+        competence. Ultimately, the program sought to mentor the attendees to
+        become leaders for SHE, who would go on to mould the junior members.</p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="CODE.webp" alt="code" style="width:100%">
+      <h2>SHE CODERS</h2>
+      <p>An online platform for improving the coding skills where alumnae as mentors.</p>
+    </div>
+  </div>
+<!-- END GRID -->
+</div>
+
+
+<!-- END MAIN -->
+</div>
+
+</body>
+</html>
